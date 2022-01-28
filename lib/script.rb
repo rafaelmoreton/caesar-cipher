@@ -31,3 +31,5 @@ def caesar_cipher(string, shift_factor)
     end
     ciphed_array.join("")
 end
+
+p caesar_cipher("5", 3)
